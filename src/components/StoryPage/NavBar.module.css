@@ -1,0 +1,51 @@
+.navBarWrapper {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  background: linear-gradient(to bottom, rgba(0,0,0,.4) 35%, transparent);
+  height: 200px;
+  color: #eee;
+}
+.light {
+  color: #eee;
+}
+.progressBar {
+  width: 0;
+  height: 3px;
+  background-color: #eee;
+  animation: progressAnim 3000ms linear ;
+}
+@keyframes progressAnim {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.navBar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: .8rem  1rem;
+}
+.navBar img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.username{
+ font-weight: bold;
+ transform: translateY(-5px);
+ font-size: .9rem;
+}
+.navBar i {
+  font-size: 1.5rem;
+}
+.navBar li {
+  margin-right: .5rem;
+}
+.navBar .icon {
+  margin-left: .5rem;
+}

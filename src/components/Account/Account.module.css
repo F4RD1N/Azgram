@@ -1,0 +1,37 @@
+
+.postType {
+ margin-top: 1rem;
+ height: 50px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border: 2px solid #313542;
+ border-left: none;
+ border-right: none;
+}
+.light .postType {
+  border-color: #F3F6F6;
+}
+.light .postType i {
+  color: #9969FF;
+}
+.postType li {
+  height: 100%;
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #313542;
+}
+.postType li:nth-child(1){
+  border-right: 2px solid #313542;
+}
+.light .postType li:nth-child(1){
+  border-right: 2px solid #F3F6F6;
+}
+.postType i {
+  font-size: 1.5rem;
+}
+.postType .active {
+  color: #fff;
+}

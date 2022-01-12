@@ -1,0 +1,194 @@
+[
+  {
+    "id": "LKmhzrRAqqACxAe",
+    "accAvatar": "../resources/avatar/billie_avatar.jpg",
+    "username": "billie",
+    "time": "17:19",
+    "status": "online",
+    "messages": [
+      {
+      "id": 1,
+      "type": "he",
+      "body": "Hi\nhow are u fardin😃",
+      "time": "20:21"
+      },
+      {
+      "id": 2,
+      "type": "you",
+      "body": "hey billie\nim good thx:) how about u?!",
+      "time": "20:22",
+      "status": true
+      },
+      {
+      "id": 3,
+      "type": "he",
+      "body": "im good too\n may i ask u something?",
+      "time": "20:23"
+      },
+      {
+      "id": 4,
+      "type": "you",
+      "body": "sure, whats the problem?!",
+      "time": "20:23",
+      "status": true
+      },
+      {
+      "id": 5,
+      "type": "he",
+      "body": "well... im looking for a react developer. i have a project and i ask u to do this project for me😊",
+      "time": "20:25"
+      },
+      {
+      "id": 6,
+      "type": "he",
+      "body": "can u do this?",
+      "time": "20:25"
+      },
+      {
+      "id": 7,
+      "type": "you",
+      "body": "yeah ofc. text me on telegram\nmy id is @HiddenID",
+      "time": "20:26",
+      "status": true
+      },
+      {
+      "id": 8,
+      "type": "you",
+      "body": "or u can text me on WhatsApp\n+989142615287",
+      "time": "20:26",
+      "status": true
+      },
+      {
+      "id": 9,
+      "type": "he",
+      "body": "ok i'll text u\nsee u soon",
+      "time": "20:29"
+      },
+      {
+      "id": 10,
+      "type": "you",
+      "body": "bye",
+      "time": "20:30",
+      "status": true
+      }
+      ]
+  },
+ {
+    "id": "Kwox91lvjKxhA",
+    "accAvatar": "../resources/contacts/salar.png",
+    "username": "Davood Khodadust",
+    "time": "17:09",
+    "status": "last seen a long time ago",
+    "messages": [
+      {
+      "id": 1,
+      "type": "he",
+      "body": "سلام فردین خوبی",
+      "time": "15:04"
+      },
+      {
+      "id": 2,
+      "type": "he",
+      "body": "سالار",
+      "time": "15:08"
+      },
+      {
+      "id": 3,
+      "type": "he",
+      "body": "الو😐",
+      "time": "15:10"
+      },
+      {
+      "id": 4,
+      "type": "you",
+      "body": "به به جانم اقای خدادوست\nمیوه خوار طبیعت گرد",
+      "time": "15:11",
+      "status": true
+      },
+      {
+      "id": 5,
+      "type": "he",
+      "body": "مخلصم😁چه خبر چیکارا میکنی",
+      "time": "15:11"
+      },
+      {
+      "id": 6,
+      "type": "you",
+      "body": "داش کروناس دیگه😑نشستیم تو خونه کد میزنیم😂",
+      "time": "15:11",
+      "status": true
+      },
+      {
+      "id": 7,
+      "type": "he",
+      "body": "چه کدی 😐😐😐",
+      "time": "15:12"
+      },
+    {
+      "id": 8,
+      "type": "you",
+      "body": "برنامه نویسی دیگه😐 قبلا هم بهت گفتم که وب کار میکنم",
+      "time": "15:12",
+      "status": true
+      },
+      {
+      "id": 9,
+      "type": "he",
+      "body": "به به یعنی سایت میزنی؟ 😀",
+      "time": "15:14"
+      },
+      {
+      "id": 10,
+      "type": "you",
+      "body": "با اجازه 😂😑",
+      "time": "15:17",
+      "status": true
+      },
+      {
+      "id": 11,
+      "type": "he",
+      "body": "داوشمی بمولا😁 چیا کار میکنی حالا",
+      "time": "15:17"
+      },
+      {
+      "id": 12,
+      "type": "you",
+      "body": "فعلا تو حوزه فرانت اند کار میکنم\nبا React وب اپلیکیشنای مدرن توسعه میدم :)",
+      "time": "15;19",
+      "status": true
+      },
+      {
+      "id": 13,
+      "type": "he",
+      "body": "ایول حاجی. میگم احتمالا واسه شرکتمون یه سایت بزنیم. میتونم رو تو حساب باز کنم؟😁",
+      "time": "15:21"
+      },
+      {
+      "id": 14,
+      "type": "you",
+      "body": "اره دا چرا که نه. بیا تلگرام راجبش صحبت کنیم\nایدیم: @HiddenID",
+      "time": "15:21",
+      "status": true
+      },
+   {
+      "id": 15,
+      "type": "he",
+      "body": "حله پس.شب میام راجبش حرف بزنیم\nفعلا ململانیک و شهشهانی باشی😀",
+      "time": "15:22"
+      },
+     {
+      "id": 16,
+      "type": "he",
+      "body": "های هاااای",
+      "time": "15:22"
+      },
+      {
+      "id": 17,
+      "type": "you",
+      "body": "فعلا😂",
+      "time": "15:23",
+      "status": true
+      }
+      ]
+  }
+]

@@ -1,0 +1,94 @@
+.infoWrapper {
+  padding: 5rem 1rem 0 0;
+}
+.states {
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.states li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.states li .top {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: .3rem;
+}
+.states li .bottom {
+  font-size: .8rem;
+  opacity: .4;
+}
+.states img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.userInfo {
+  margin-top: 1rem;
+  text-align: center;
+}
+.userInfo li {
+  margin-bottom:  .3rem;
+  font-size: .8rem;
+  opacity: .4;
+}
+.userInfo .name {
+  font-size: 1.4rem;
+  font-weight: bold;
+  opacity: 1;
+}
+.buttonActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding:0 3rem;
+}
+.buttonActions li{
+  border: 2px solid #6d6d6d;
+  width: 40%;
+  padding: 1rem 0;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonActions .primaryButton {
+  background-color: #FFEA30;
+  color: #1F2128;
+  border-color: #FFEA30;
+}
+
+.primaryButton.light {
+  background-color: #7737FF;
+  border-color: #7737FF;
+  color: #EEE6FF;
+}
+.secButton.light {
+  border-color: #EEF3F3;
+}
+.verified {
+  position: relative;
+  color: #47ABF6;
+}
+.verified:after {
+  content: '';
+  position: absolute;
+  background-color: #FFF;
+  left: 30%;
+  bottom: 45%;
+  width: 40%;
+  height: 40%;
+  z-index: -1;
+}
+ 
+ /* Start Highlights */
+ .highlights {
+   margin-top: 2rem;
+   display: flex;
+   justify-content: flex-start;
+ }

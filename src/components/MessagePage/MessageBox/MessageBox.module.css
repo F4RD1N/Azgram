@@ -1,0 +1,67 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.sender {
+  max-width: 75%;
+  background-color: #FEE530;
+  color: #1F2018;
+  display: flex;
+  flex-direction: column;
+  padding: .5rem .5rem .5rem .5rem;
+  border-radius: 3px 3px 0 3px;
+  height: auto;
+  margin-top: .5rem;
+  align-self: flex-end;
+}
+.light .sender {
+  background-color: #7737FF;
+  color: #eee;
+}
+.message {
+  line-height: 1.2;
+  width: 100%;
+  overflow-wrap: break-word;
+  white-space: pre-line;
+}
+.isPersian{
+  direction: rtl;
+  line-height: 1.3;
+  width: 100%;
+  overflow-wrap: break-word;
+  white-space: pre-line;
+  font-family: 'Vazir';
+}
+.sender .info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: flex-end;
+  margin-top: .3rem;
+}
+.info .time {
+  font-size: .8rem;
+  margin-right: .3rem;
+}
+
+.reciver {
+  max-width: 75%;
+  background-color: #292D39;
+  display: flex;
+  flex-direction: column;
+  padding: .5rem .5rem .5rem .5rem;
+  border-radius: 3px 3px 3px 0;
+  height: auto;
+  margin-top: .5rem;
+  align-self: flex-start;
+}
+.light .reciver {
+  background-color: #F3F6F6;
+}
+.reciver .info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: flex-end;
+  margin-top: .3rem;
+}

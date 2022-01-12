@@ -1,0 +1,51 @@
+.menuItems {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
+.menuItems li{
+  list-style: none;
+}
+.menuItems i {
+  font-size: 1.5rem;
+}
+.menuItems .more {
+  position: absolute;
+  right: 0;
+}
+.contactCard {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2rem;
+}
+.contactCard img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.info {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 1rem;
+}
+.user {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.online {
+  color:#72B1DD;
+  font-size: .9rem;
+  font-weight: 500;
+}
+.light .online {
+  color: #8462CD;
+}
+.offline {
+  opacity: .6;
+  font-size: .9rem;
+}

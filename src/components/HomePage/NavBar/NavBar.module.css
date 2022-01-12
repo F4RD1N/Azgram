@@ -1,0 +1,63 @@
+.navBar{
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background-color: #1F2128;
+  box-shadow: 0px 6px 10px 0px rgba(0,0,0,.2);
+}
+.menuItems{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuItems li{
+  list-style: none;
+}
+.menuItems i {
+  font-size: 1.5rem;
+}
+.navBar.light .menuItems i {
+  color: #3C404B;
+}
+.appName {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.menuItems input {
+  border: none;
+  outline: none;
+  height: 100%;
+  background-color: transparent;
+  width: 90%;
+  color: #eee;
+}
+.menuItems input::placeholder {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.menuName{
+  height: 25px;
+  text-align: center;
+}
+
+
+.light {
+  background-color: #FFF;
+  color: #3C404B;
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,.1);
+}
+
+
+@media only screen and (min-width:500px){
+
+  .navBar{
+    width: 390px;
+    margin: 0 auto;
+  }
+}

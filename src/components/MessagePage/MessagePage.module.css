@@ -1,0 +1,13 @@
+.messagePage {
+  padding: 5rem 0 3rem 0;
+  min-height: 100px;
+}
+.light {
+  background: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/2d9dd173426833.5c08f5634ff45.png");
+  background-attachment: fixed;
+}
+.messagesWrapper {
+  padding: .5rem;
+  display: flex;
+  flex-direction: column;
+}

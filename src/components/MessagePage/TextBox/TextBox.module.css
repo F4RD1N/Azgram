@@ -1,0 +1,65 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0 1rem;
+  height: 50px;
+  background-color: #2E313B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+.light {
+  background-color: #FFF;
+  box-shadow: -2px 0 10px rgba(0,0,0,.1);
+}
+.textBox {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.textBox i {
+  font-size: 1.5rem;
+}
+.inputBox {
+  width: 70%;
+  margin-left: .5rem;
+}
+.inputBox input{
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #eee;
+}
+.light .inputBox input {
+  color: #3C404B;
+}
+i {
+  margin-right: .5rem;
+}
+.send {
+  position: absolute;
+  right: 0;
+  margin-right: 2rem;
+  opacity: .6;
+}
+.active {
+  color: #72B1DD;
+  opacity: 1;
+}
+.light .active {
+  color: #7737FF;
+}
+
+
+
+@media only screen and (min-width:500px){
+
+  .footer{
+    width: 390px;
+    margin: 0 auto;
+  }
+}

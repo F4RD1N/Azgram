@@ -1,0 +1,17 @@
+.highlightCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 1rem;
+}
+.highlightCard img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.highlightCard span {
+  font-size: .8rem;
+  margin-top: .5rem;
+}

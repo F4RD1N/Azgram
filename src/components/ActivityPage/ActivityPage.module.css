@@ -1,0 +1,9 @@
+.activityPage {
+  padding: 5rem 1rem;
+}
+.date {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}

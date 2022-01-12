@@ -1,0 +1,45 @@
+.bottomNavBar {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 0 1rem;
+  background-color: #2E313B;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 2;
+  box-shadow: 0px -6px 10px 0px rgba(0,0,0,.1);
+}
+.light {
+  background-color: #fff;
+  color: #3C404B;
+}
+.navItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navItems i {
+  font-size: 1.5rem;
+}
+
+.navItems img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+a {
+  color: #fff;
+}
+
+
+@media only screen and (min-width:500px){
+  .bottomNavBar {
+    width: 390px;
+    margin: 0 auto;
+  }
+}
