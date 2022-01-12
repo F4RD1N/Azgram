@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react'
+import {getJSON} from './services/api'
 import {Routes, Route, Navigate} from 'react-router-dom'
 import Loading from './components/LoadingPage/Loading'
 import HomePage from './components/HomePage/HomePage'
