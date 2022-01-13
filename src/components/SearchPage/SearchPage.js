@@ -3,10 +3,10 @@ import styles from './SearchPage.module.css'
 import SearchBox from './SearchBox/SearchBox'
 import Navigation from '../Navigation/Navigation'
 import PostPage from '../PostPage/PostPage'
-import {DataContext} from '../../App'
+import {MainContext} from '../../context/ContextProvider'
 import useTitle from '../../hooks/useTitle'
 const SearchPage = () => {
-  const {posts: postsData} = useContext(DataContext)
+  const {posts: postsData} = useContext(MainContext)
   const [showPost, setShowPost] = useState(false);
   const [postId, setPostId] = useState('')
   const showPostHandler = (id) => {

@@ -1,11 +1,11 @@
 import {useContext} from 'react'
 import {useParams} from 'react-router-dom'
-import {DataContext} from '../../App'
+import {MainContext} from '../../context/ContextProvider'
 import styles from './StoryPage.module.css'
 import NavBar from './NavBar.js'
 const StoryPage = () => {
   const params = useParams()
-  const {stories: storiesData} = useContext(DataContext)
+  const {stories: storiesData} = useContext(MainContext)
   return (
     <section
      className={styles.storyPage}>

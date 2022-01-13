@@ -1,6 +1,6 @@
 import {useRef, useEffect, useState, useContext} from 'react'
 import {useParams} from 'react-router-dom'
-import {DataContext} from '../../App'
+import {MainContext} from '../../context/ContextProvider'
 import styles from './MessagePage.module.css'
 import NavBar from './NavBar'
 import TextBox from './TextBox/TextBox'
@@ -15,7 +15,7 @@ const MessagePage = () => {
   const [senderAllMessage, setsenderAllMessage] = useState([])
   const [connection, setConnection] = useState(true)
   const [data, setData] = useState({})
-  const {chats: chatsData} = useContext(DataContext)
+  const {chats: chatsData} = useContext(MainContext)
   const theme = localStorage.getItem('theme')
   useEffect(() => {
     if(!chatsData) return;

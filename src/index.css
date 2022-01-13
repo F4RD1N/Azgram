@@ -7,6 +7,7 @@ body {
   background-color: #22242D;
   color: #E4E5E5;
   position: relative;
+  overscroll-behavior: contain;
 }
 .light {
   background-color: #eee;

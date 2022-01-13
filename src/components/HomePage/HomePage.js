@@ -1,5 +1,5 @@
 import {useContext} from 'react'
-import {DataContext} from '../../App'
+import {MainContext} from '../../context/ContextProvider'
 import styles from './HomePage.module.css'
 import NavBar from './NavBar/NavBar'
 import Stories from './Stories/Stories'
@@ -7,7 +7,7 @@ import PostCard from './PostCard/PostCard'
 import Navigation from '../Navigation/Navigation'
 import useTitle from '../../hooks/useTitle'
 const HomePage = () => {
- const {posts : postsData, stories: storiesData} = useContext(DataContext)
+ const {posts : postsData, stories: storiesData} = useContext(MainContext)
  
  //set useTitle
  useTitle('Home')

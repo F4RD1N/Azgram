@@ -6,8 +6,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  margin-left: 1rem;
 }
-
 .imageWrapper {
   width: 65px;
   height: 65px;

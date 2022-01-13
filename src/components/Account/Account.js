@@ -1,5 +1,5 @@
-import {useState, useContext} from 'react'
-import {DataContext} from '../../App'
+import {useState, useContext, useEffect} from 'react'
+import {MainContext} from '../../context/ContextProvider'
 import styles from './Account.module.css'
 import NavBar from './NavBar/NavBar'
 import Info from './Info/Info'
@@ -9,7 +9,7 @@ import Navigation from '../Navigation/Navigation'
 import PostPage from '../PostPage/PostPage'
 import useTitle from '../../hooks/useTitle'
 const Account = ({themeHandler}) => {
- const {account: accountData, posts: postsData} = useContext(DataContext)
+ const {account: accountData, posts: postsData} = useContext(MainContext)
   const [postType, setPostType] = useState('ownPosts')
   const [showPost, setShowPost] = useState(false);
   const [postId, setPostId] = useState('')
@@ -23,10 +23,15 @@ const Account = ({themeHandler}) => {
       setShowPost(false)
     }
   }
-  
   //set Title
   useTitle('Account')
   
+  const [time, setTime] = useState(1)
+  useEffect(() => {
+    setTimeout(function() {
+      setTime(2)
+    },200);
+  },[])
   return (
     <section
      className={`${styles.account} ${theme === 'light' ? styles.light : ''}`}
