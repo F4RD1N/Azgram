@@ -1,4 +1,4 @@
-import {useContext} from 'react'
+import {useContext, useEffect, useState} from 'react'
 import {MainContext} from '../../context/ContextProvider'
 import styles from './HomePage.module.css'
 import NavBar from './NavBar/NavBar'
@@ -11,7 +11,12 @@ const HomePage = () => {
  
  //set useTitle
  useTitle('Home')
- 
+const [time, setTime] = useState(1)
+  useEffect(() => {
+    setTimeout(function() {
+      setTime(2)
+    },200);
+  },[])
   return(
     <div className={styles.homePage}>
      <NavBar />
