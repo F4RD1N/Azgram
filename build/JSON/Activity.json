@@ -1,0 +1,66 @@
+[
+ {
+  "id" : 1,
+  "accAvatar": "../resources/avatar/selena_avatar.jpeg",
+  "username" : "selena",
+  "type": "liked",
+  "time": "1min",
+  "likedPost": "../resources/js.png"
+ },
+ {
+  "id" : 2,
+  "accAvatar": "../resources/avatar/saren_avatar.jpeg",
+  "username" : "saren",
+  "type": "liked",
+  "time": "36min",
+  "likedPost": "../resources/js.png"
+ },
+ {
+  "id" : 3,
+  "accAvatar": "../resources/avatar/leomessi_avatar.jpeg",
+  "username" : "leomessi",
+  "type": "followed",
+  "time": "2h",
+  "likedPost": "xxx"
+ },
+ {
+  "id" : 4,
+  "accAvatar": "../resources/avatar/yas_avatar.jpeg",
+  "username" : "yas",
+  "type": "liked",
+  "time": "4h",
+  "likedPost": "../resources/js.png"
+ },
+ {
+  "id" : 5,
+  "accAvatar": "../resources/avatar/hande_avatar.jpg",
+  "username" : "handemiyy",
+  "type": "followed",
+  "time": "\n7h",
+  "likedPost": "xxx"
+ },
+ {
+  "id" : 6,
+  "accAvatar": "../resources/avatar/donya_avatar.png",
+  "username" : "donya",
+  "type": "followed",
+  "time": "\n11h",
+  "likedPost": "xxx"
+ },
+ {
+  "id" : 7,
+  "accAvatar": "../resources/avatar/drstop_avatar.png",
+  "username" : "drstop",
+  "type": "followed",
+  "time": "\n2days",
+  "likedPost": "xxx"
+ },
+ {
+  "id" : 8,
+  "accAvatar": "../resources/avatar/anjelina_avatar.jpeg",
+  "username" : "anjelina",
+  "type": "liked",
+  "time": "5days",
+  "likedPost": "../resources/js.png"
+ }
+]
